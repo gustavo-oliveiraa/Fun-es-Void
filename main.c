@@ -1,7 +1,8 @@
+//Fun√ß√£o
 #include <stdio.h>
 #include <stdlib.h>
 
-// 2 - prototipaÁ„o
+// 2 - prototipa√ß√£o
 int em_uma_decada(int minha_idade);
 
 int main(){
@@ -11,7 +12,7 @@ int main(){
 	printf("Informe a idade: ");
 	scanf("%d", &idade);
 	
-// 3 - chamada da funÁ„o
+// 3 - chamada da fun√ß√£o
 	idade_mais_10 = em_uma_decada(idade);
 	printf("%d\n",em_uma_decada(idade));
 	printf("%d\n",idade_mais_10);
@@ -23,7 +24,7 @@ int main(){
 	
 
 
-// 1 - declaraÁ„o
+// 1 - declara√ß√£o
 	int em_uma_decada(int minha_idade){
 		
 	return minha_idade + 10;
@@ -31,15 +32,15 @@ int main(){
 	
 
 /*
-	ModularizaÁ„o
+	Modulariza√ß√£o
 	Subprogramas
 	
-	funÁıes: return
-	procedimentos: n„o tem retorno "void"
+	fun√ß√µes: return
+	procedimentos: n√£o tem retorno "void"
 	
 	3 momentos:
-		declaraÁ„o
-		protÛtipaÁ„o
+		declara√ß√£o
+		prot√≥tipa√ß√£o
 		chamada
 
 	https://pastebin.com/CwayXPbU
