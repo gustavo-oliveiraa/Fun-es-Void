@@ -1,0 +1,46 @@
+/*
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(){
+	
+	float n1, n2, result;
+	char op;
+	
+	head(): // 3 - chamada de procedimento
+	
+	printf("N1:");
+	scanf("%f", &n1);
+	
+	printf("OP:");
+	op = le_valida_operador():
+		
+	printf("N2: ");
+	scanf("%f", &n2);
+	
+	printf("------------------\n");
+	
+	switch(op){
+		case '+':
+			result = soma(n1, n2);
+			printf("RESULTADO:    &.1f\n", result); // 3 - chamada do
+		break
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
