@@ -1,3 +1,4 @@
+// void
 #include<stdio.h>
 
 void soma_notas(float , float);
